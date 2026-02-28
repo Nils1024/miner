@@ -1,4 +1,4 @@
-if(!is_generated) {
+if(!global.is_generated) {
     var mouse_grid_x = floor(mouse_x / 16);
     var mouse_grid_y = floor(mouse_y / 16);
     
@@ -8,7 +8,7 @@ if(!is_generated) {
     tilemap_set(objects_map_id, 34, mouse_grid_x, mouse_grid_y);
     
     gen_minesweeper()
-    is_generated = true
+    global.is_generated = true
 } else {
 	// Unreveal spot
 }

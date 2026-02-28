@@ -1,3 +1,6 @@
+if(!global.is_generated) {
+    return
+}
 
 if (move_timer > 0) {
     move_timer -= 1;
@@ -6,8 +9,15 @@ if (move_timer > 0) {
 
 if (!is_moving && move_timer <= 0) {
    
-    var move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
-    var move_y = keyboard_check(vk_down) - keyboard_check(vk_up);
+var right = keyboard_check(vk_right) || keyboard_check(ord("D"));
+var left  = keyboard_check(vk_left)  || keyboard_check(ord("A"));
+
+var move_x = right - left;
+    
+var move_arrow_y = keyboard_check(vk_down) - keyboard_check(vk_up);
+var move_wasd_y  = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+
+var move_y = move_arrow_y + move_wasd_y;
 
 
     if ((move_x != 0 || move_y != 0) && !(move_x != 0 && move_y != 0)) {

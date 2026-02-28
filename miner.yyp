@@ -50,6 +50,7 @@
     {"id":{"name":"QuitSpriteHover","path":"sprites/QuitSpriteHover/QuitSpriteHover.yy",},},
     {"id":{"name":"SettingsSprite","path":"sprites/SettingsSprite/SettingsSprite.yy",},},
     {"id":{"name":"SettingsSpriteHover","path":"sprites/SettingsSpriteHover/SettingsSpriteHover.yy",},},
+    {"id":{"name":"TrapsTileSetSprite","path":"sprites/TrapsTileSetSprite/TrapsTileSetSprite.yy",},},
     {"id":{"name":"volume_slider","path":"sprites/volume_slider/volume_slider.yy",},},
     {"id":{"name":"Ground","path":"tilesets/Ground/Ground.yy",},},
     {"id":{"name":"Numbers","path":"tilesets/Numbers/Numbers.yy",},},
