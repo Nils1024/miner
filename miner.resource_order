@@ -1,13 +1,17 @@
 {
   "FolderOrderSettings":[
+    {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Tilesets","order":1,"path":"folders/Tilesets.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_music_manager","order":2,"path":"objects/obj_music_manager/obj_music_manager.yy",},
+    {"name":"obj_volume_slider_settings","order":1,"path":"objects/obj_volume_slider_settings/obj_volume_slider_settings.yy",},
     {"name":"Room1","order":2,"path":"rooms/Room1/Room1.yy",},
     {"name":"settings","order":1,"path":"rooms/settings/settings.yy",},
     {"name":"BackSprite","order":4,"path":"sprites/BackSprite/BackSprite.yy",},
     {"name":"BackSpriteHover","order":1,"path":"sprites/BackSpriteHover/BackSpriteHover.yy",},
     {"name":"GroundTileSetSprite","order":8,"path":"sprites/GroundTileSetSprite/GroundTileSetSprite.yy",},
+    {"name":"menu_bg","order":12,"path":"sprites/menu_bg/menu_bg.yy",},
     {"name":"NumbersTileSetSprite","order":11,"path":"sprites/NumbersTileSetSprite/NumbersTileSetSprite.yy",},
     {"name":"ObjectsTileSetSprite","order":9,"path":"sprites/ObjectsTileSetSprite/ObjectsTileSetSprite.yy",},
     {"name":"PlayerSprite","order":10,"path":"sprites/PlayerSprite/PlayerSprite.yy",},
@@ -16,6 +20,7 @@
     {"name":"QuitSprite","order":7,"path":"sprites/QuitSprite/QuitSprite.yy",},
     {"name":"QuitSpriteHover","order":5,"path":"sprites/QuitSpriteHover/QuitSpriteHover.yy",},
     {"name":"SettingsSprite","order":6,"path":"sprites/SettingsSprite/SettingsSprite.yy",},
+    {"name":"volume_slider","order":13,"path":"sprites/volume_slider/volume_slider.yy",},
     {"name":"Numbers","order":1,"path":"tilesets/Numbers/Numbers.yy",},
     {"name":"Objects","order":2,"path":"tilesets/Objects/Objects.yy",},
   ],
