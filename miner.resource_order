@@ -16,6 +16,7 @@
     {"name":"QuitSprite","order":7,"path":"sprites/QuitSprite/QuitSprite.yy",},
     {"name":"QuitSpriteHover","order":5,"path":"sprites/QuitSpriteHover/QuitSpriteHover.yy",},
     {"name":"SettingsSprite","order":6,"path":"sprites/SettingsSprite/SettingsSprite.yy",},
+    {"name":"TrapsTileSetSprite","order":12,"path":"sprites/TrapsTileSetSprite/TrapsTileSetSprite.yy",},
     {"name":"Numbers","order":1,"path":"tilesets/Numbers/Numbers.yy",},
     {"name":"Objects","order":2,"path":"tilesets/Objects/Objects.yy",},
   ],

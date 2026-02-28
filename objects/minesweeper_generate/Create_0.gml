@@ -11,7 +11,7 @@ objects_map_id = layer_tilemap_get_id(objects_layer_id)
 tiles_width = room_width / 16;
 tiles_height = room_height / 16;
 
-is_generated = false
+global.is_generated = false
 bomb_spots = {}
 number_spots = {}
 
