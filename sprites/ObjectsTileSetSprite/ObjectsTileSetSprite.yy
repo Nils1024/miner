@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"miner",
-    "path":"miner.yyp",
+    "name":"miner.",
+    "path":"miner..yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
