@@ -20,6 +20,10 @@
   "name":"miner",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"GroundTileSetSprite","path":"sprites/GroundTileSetSprite/GroundTileSetSprite.yy",},},
+    {"id":{"name":"ObjectsTileSetSprite","path":"sprites/ObjectsTileSetSprite/ObjectsTileSetSprite.yy",},},
+    {"id":{"name":"PlayerSprite","path":"sprites/PlayerSprite/PlayerSprite.yy",},},
+    {"id":{"name":"TileSet","path":"tilesets/TileSet/TileSet.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
