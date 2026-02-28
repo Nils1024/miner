@@ -1,25 +1,25 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet",
+  "%Name":"Objects",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet",
+  "name":"Objects",
   "out_columns":7,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"miner",
-    "path":"miner.yyp",
+    "name":"Tilesets",
+    "path":"folders/Tilesets.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"GroundTileSetSprite",
-    "path":"sprites/GroundTileSetSprite/GroundTileSetSprite.yy",
+    "name":"ObjectsTileSetSprite",
+    "path":"sprites/ObjectsTileSetSprite/ObjectsTileSetSprite.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":56,
+  "tile_count":50,
 }
