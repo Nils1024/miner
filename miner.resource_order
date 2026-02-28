@@ -1,5 +1,7 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Objects","order":5,"path":"folders/Objects.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"obj_button_back","order":4,"path":"objects/obj_button_back/obj_button_back.yy",},
     {"name":"obj_button_play","order":1,"path":"objects/obj_button_play/obj_button_play.yy",},
@@ -8,8 +10,10 @@
     {"name":"settings","order":1,"path":"rooms/settings/settings.yy",},
     {"name":"BackSprite","order":7,"path":"sprites/BackSprite/BackSprite.yy",},
     {"name":"BackSpriteHover","order":8,"path":"sprites/BackSpriteHover/BackSpriteHover.yy",},
+    {"name":"random_background","order":1,"path":"objects/random_background/random_background.yy",},
+    {"name":"random_background","order":1,"path":"objects/random_background/random_background.yy",},
     {"name":"GroundTileSetSprite","order":2,"path":"sprites/GroundTileSetSprite/GroundTileSetSprite.yy",},
-    {"name":"ObjectsTileSetSprite","order":1,"path":"sprites/ObjectsTileSetSprite/ObjectsTileSetSprite.yy",},
+    {"name":"ObjectsTileSetSprite","order":3,"path":"sprites/ObjectsTileSetSprite/ObjectsTileSetSprite.yy",},
     {"name":"PlayerSprite","order":4,"path":"sprites/PlayerSprite/PlayerSprite.yy",},
     {"name":"PlaySpriteHover","order":2,"path":"sprites/PlaySpriteHover/PlaySpriteHover.yy",},
     {"name":"QuitSprite","order":3,"path":"sprites/QuitSprite/QuitSprite.yy",},
