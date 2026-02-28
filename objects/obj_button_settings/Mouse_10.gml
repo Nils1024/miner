@@ -1,1 +1,1 @@
-sprite_index = SettingsSprite
+sprite_index = SettingsSpriteHover

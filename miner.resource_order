@@ -1,15 +1,13 @@
 {
-  "FolderOrderSettings":[
-    {"name":"Objects","order":5,"path":"folders/Objects.yy",},
-    {"name":"Rooms","order":9,"path":"folders/Rooms.yy",},
-    {"name":"Objects","order":6,"path":"folders/Objects.yy",},
-    {"name":"Sprites","order":8,"path":"folders/Sprites.yy",},
-  ],
+  "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_button_back","order":4,"path":"objects/obj_button_back/obj_button_back.yy",},
     {"name":"obj_button_play","order":1,"path":"objects/obj_button_play/obj_button_play.yy",},
     {"name":"obj_button_quit","order":2,"path":"objects/obj_button_quit/obj_button_quit.yy",},
     {"name":"obj_button_settings","order":3,"path":"objects/obj_button_settings/obj_button_settings.yy",},
     {"name":"settings","order":1,"path":"rooms/settings/settings.yy",},
+    {"name":"BackSprite","order":7,"path":"sprites/BackSprite/BackSprite.yy",},
+    {"name":"BackSpriteHover","order":8,"path":"sprites/BackSpriteHover/BackSpriteHover.yy",},
     {"name":"GroundTileSetSprite","order":2,"path":"sprites/GroundTileSetSprite/GroundTileSetSprite.yy",},
     {"name":"ObjectsTileSetSprite","order":1,"path":"sprites/ObjectsTileSetSprite/ObjectsTileSetSprite.yy",},
     {"name":"PlayerSprite","order":4,"path":"sprites/PlayerSprite/PlayerSprite.yy",},
@@ -17,6 +15,7 @@
     {"name":"QuitSprite","order":3,"path":"sprites/QuitSprite/QuitSprite.yy",},
     {"name":"QuitSpriteHover","order":4,"path":"sprites/QuitSpriteHover/QuitSpriteHover.yy",},
     {"name":"SettingsSprite","order":5,"path":"sprites/SettingsSprite/SettingsSprite.yy",},
+    {"name":"SettingsSpriteHover","order":6,"path":"sprites/SettingsSpriteHover/SettingsSpriteHover.yy",},
     {"name":"TileSet","order":1,"path":"tilesets/TileSet/TileSet.yy",},
   ],
 }
