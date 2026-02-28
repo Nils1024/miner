@@ -9,9 +9,9 @@ if(!global.is_generated) {
     
     gen_minesweeper()
     global.is_generated = true
-} else {
-	// Unreveal spot
-}
+} 
+
+//unreveal()
 
 function gen_minesweeper() {
     
@@ -67,5 +67,21 @@ function gen_minesweeper() {
                 }
             }
         }
+    }
+    
+    // Set stones
+    for (var _x = 0; _x < tiles_width; _x++) {
+        for (var _y = 0; _y < tiles_height; _y++) {
+            tilemap_set(map_id, 21, _x, _y);
+        }
+    }
+}
+
+function unreveal() {
+    var mouse_grid_x = floor(mouse_x / 16);
+    var mouse_grid_y = floor(mouse_y / 16);
+    
+    if(variable_struct_exists(bomb_spots, current_key)) {
+        
     }
 }
