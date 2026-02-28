@@ -1,5 +1,5 @@
-grid_size = 16;        // This is now half the distance
-move_speed = 2;        // Remember: speed must be a factor of grid_size!
+grid_size = 16;       
+move_speed = 2;        
 is_moving = false;
 target_x = x;
 target_y = y;
