@@ -33,7 +33,8 @@ function gen_minesweeper() {
         
         if (!variable_struct_exists(bomb_spots, key)) {
             bomb_spots[$ key] = true;
-            tilemap_set(map_id, 0, x_bomb, y_bomb);
+            
+            tilemap_set(traps_map_id, irandom_range(1, 3), x_bomb, y_bomb);
             placed++;
         }
     }

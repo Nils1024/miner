@@ -24,5 +24,6 @@
     {"name":"volume_slider","order":13,"path":"sprites/volume_slider/volume_slider.yy",},
     {"name":"Numbers","order":1,"path":"tilesets/Numbers/Numbers.yy",},
     {"name":"Objects","order":2,"path":"tilesets/Objects/Objects.yy",},
+    {"name":"Traps","order":3,"path":"tilesets/Traps/Traps.yy",},
   ],
 }
