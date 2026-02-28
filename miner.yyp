@@ -9,7 +9,9 @@
     "name":"Default",
   },
   "defaultScriptType":0,
-  "Folders":[],
+  "Folders":[
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
@@ -19,6 +21,7 @@
   },
   "name":"miner",
   "resources":[
+    {"id":{"name":"oplayer","path":"objects/oplayer/oplayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"GroundTileSetSprite","path":"sprites/GroundTileSetSprite/GroundTileSetSprite.yy",},},
     {"id":{"name":"ObjectsTileSetSprite","path":"sprites/ObjectsTileSetSprite/ObjectsTileSetSprite.yy",},},
