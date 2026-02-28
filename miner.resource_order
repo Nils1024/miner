@@ -13,5 +13,7 @@
     {"name":"random_background","order":5,"path":"objects/random_background/random_background.yy",},
     {"name":"settings","order":1,"path":"rooms/settings/settings.yy",},
     {"name":"spr_knob","order":1,"path":"sprites/spr_knob/spr_knob.yy",},
+    {"name":"spr_menu_bg","order":2,"path":"sprites/spr_menu_bg/spr_menu_bg.yy",},
+    {"name":"Sprite14","order":2,"path":"sprites/Sprite14/Sprite14.yy",},
   ],
 }
