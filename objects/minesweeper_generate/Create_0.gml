@@ -16,15 +16,15 @@ tiles_width = room_width / 16;
 tiles_height = room_height / 16;
 
 global.is_generated = false
-global.bomb_amount = 1000
-global.field_size_x = 10
-global.field_size_y = 10
+global.field_size_x = 6
+global.field_size_y = 5
+global.player_lives = 3
 bomb_spots = {}
 number_spots = {}
 debug_show_bombs_and_numbers = false
 
-for (var _x = 0; _x < tiles_width; _x++) {
-    for (var _y = 0; _y < tiles_height; _y++) {
+for (var _x = 0; _x < global.field_size_x; _x++) {
+    for (var _y = 0; _y < global.field_size_y; _y++) {
         tilemap_set(map_id, 17, _x, _y);
     }
 }
