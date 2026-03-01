@@ -1,6 +1,7 @@
 var mouse_grid_x = floor(mouse_x / 16);
 var mouse_grid_y = floor(mouse_y / 16);
 
+
 if(!global.is_generated) {
     oplayer.x = mouse_grid_x * 16
     oplayer.y = mouse_grid_y * 16
@@ -8,19 +9,19 @@ if(!global.is_generated) {
     tilemap_set(objects_map_id, 34, mouse_grid_x, mouse_grid_y);
     
     gen_minesweeper()
-    global.is_generated = true
+    global.is_generated =  true 
 } 
 
 unreveal(mouse_grid_x, mouse_grid_y)
 
-
-
 function gen_minesweeper() {
+    
+    draw_sprite(Sprite17, 0, 10, 10);
     
     // Set bombs
     var total_tiles = global.field_size_x * global.field_size_y;
     var density = 0.15;
-    var max_possible_bombs = total_tiles - 25; 
+    var max_possible_bombs = total_tiles - 25;  
     global.bomb_amount = floor(total_tiles * density);
     var target_bombs = min(global.bomb_amount, max_possible_bombs);
     
@@ -126,16 +127,23 @@ function unreveal(_x, _y) {
 }
 
 function bomb_hit() {
+    if (!variable_global_exists("player_lives")) {
+        global.player_lives = 3;
+    }
+
+    if (!variable_global_exists("game_over")) {
+        global.game_over = false;
+    }
+
     global.player_lives -= 1;
     
     if (global.player_lives <= 0) {
-        // Hier soll dann Ende angezeigt werden.
-        show_debug_message("End")
-    } else {
-        // Hier Herzen um 1 verringern.
+        room_goto(Room4)
+     }
+    
+        
     }
-}
 
 function solved() {
-    show_debug_message("solved")
+    show_debug_message("solved the level")
 }

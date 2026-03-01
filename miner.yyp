@@ -25,6 +25,7 @@
   },
   "name":"miner",
   "resources":[
+    {"id":{"name":"GameOver","path":"objects/GameOver/GameOver.yy",},},
     {"id":{"name":"minesweeper_generate","path":"objects/minesweeper_generate/minesweeper_generate.yy",},},
     {"id":{"name":"obj_button_back","path":"objects/obj_button_back/obj_button_back.yy",},},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
@@ -35,6 +36,7 @@
     {"id":{"name":"oplayer","path":"objects/oplayer/oplayer.yy",},},
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"id":{"name":"settings","path":"rooms/settings/settings.yy",},},
     {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"BackSprite","path":"sprites/BackSprite/BackSprite.yy",},},
@@ -52,6 +54,7 @@
     {"id":{"name":"SettingsSprite","path":"sprites/SettingsSprite/SettingsSprite.yy",},},
     {"id":{"name":"SettingsSpriteHover","path":"sprites/SettingsSpriteHover/SettingsSpriteHover.yy",},},
     {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
+    {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},},
     {"id":{"name":"TrapsTileSetSprite","path":"sprites/TrapsTileSetSprite/TrapsTileSetSprite.yy",},},
     {"id":{"name":"volume_slider","path":"sprites/volume_slider/volume_slider.yy",},},
     {"id":{"name":"WallsSprite","path":"sprites/WallsSprite/WallsSprite.yy",},},
@@ -67,6 +70,7 @@
     {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"roomId":{"name":"settings","path":"rooms/settings/settings.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

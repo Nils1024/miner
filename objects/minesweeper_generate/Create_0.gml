@@ -21,10 +21,13 @@ global.field_size_y = 5
 global.player_lives = 3
 bomb_spots = {}
 number_spots = {}
-debug_show_bombs_and_numbers = false
+debug_show_bombs_and_numbers = true
+player_lives = 3
 
 for (var _x = 0; _x < global.field_size_x; _x++) {
     for (var _y = 0; _y < global.field_size_y; _y++) {
         tilemap_set(map_id, 17, _x, _y);
     }
 }
+
+
