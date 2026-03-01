@@ -15,6 +15,7 @@
     {"name":"Room1","order":2,"path":"rooms/Room1/Room1.yy",},
     {"name":"Room4","order":3,"path":"rooms/Room4/Room4.yy",},
     {"name":"settings","order":1,"path":"rooms/settings/settings.yy",},
+    {"name":"RoomUI","order":4,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"BackSprite","order":4,"path":"sprites/BackSprite/BackSprite.yy",},
     {"name":"BackSpriteHover","order":1,"path":"sprites/BackSpriteHover/BackSpriteHover.yy",},
     {"name":"GroundTileSetSprite","order":8,"path":"sprites/GroundTileSetSprite/GroundTileSetSprite.yy",},

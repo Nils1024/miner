@@ -38,6 +38,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"id":{"name":"settings","path":"rooms/settings/settings.yy",},},
+    {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"BackSprite","path":"sprites/BackSprite/BackSprite.yy",},},
     {"id":{"name":"BackSpriteHover","path":"sprites/BackSpriteHover/BackSpriteHover.yy",},},

@@ -138,7 +138,10 @@ function bomb_hit() {
     global.player_lives -= 1;
     
     if (global.player_lives <= 0) {
-        room_goto(Room4)
+        var uifolder = layer_get_id("UILayer_1");
+		layer_set_visible(uifolder, true);
+		room_goto(Room4);
+		
      }
     
         
