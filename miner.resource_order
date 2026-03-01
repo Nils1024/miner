@@ -22,8 +22,10 @@
     {"name":"SettingsSprite","order":6,"path":"sprites/SettingsSprite/SettingsSprite.yy",},
     {"name":"TrapsTileSetSprite","order":12,"path":"sprites/TrapsTileSetSprite/TrapsTileSetSprite.yy",},
     {"name":"volume_slider","order":13,"path":"sprites/volume_slider/volume_slider.yy",},
+    {"name":"WallsSprite","order":14,"path":"sprites/WallsSprite/WallsSprite.yy",},
     {"name":"Numbers","order":1,"path":"tilesets/Numbers/Numbers.yy",},
     {"name":"Objects","order":2,"path":"tilesets/Objects/Objects.yy",},
     {"name":"Traps","order":3,"path":"tilesets/Traps/Traps.yy",},
+    {"name":"Walls","order":4,"path":"tilesets/Walls/Walls.yy",},
   ],
 }
