@@ -1,7 +1,7 @@
+var mouse_grid_x = floor(mouse_x / 16);
+var mouse_grid_y = floor(mouse_y / 16);
+
 if(!global.is_generated) {
-    var mouse_grid_x = floor(mouse_x / 16);
-    var mouse_grid_y = floor(mouse_y / 16);
-    
     oplayer.x = mouse_grid_x * 16
     oplayer.y = mouse_grid_y * 16
     
@@ -9,9 +9,11 @@ if(!global.is_generated) {
     
     gen_minesweeper()
     global.is_generated = true
-} else {
-	// Unreveal spot
-}
+} 
+
+unreveal(mouse_grid_x, mouse_grid_y)
+
+
 
 function gen_minesweeper() {
     
@@ -21,7 +23,7 @@ function gen_minesweeper() {
     var player_grid_x = floor(oplayer.x / 16);
     var player_grid_y = floor(oplayer.y / 16);
 
-    while (placed < 15) {
+    while (placed < global.bomb_amount) {
         var x_bomb = irandom_range(0, tiles_width - 1);
         var y_bomb = irandom_range(0, tiles_height - 1);
         
@@ -63,9 +65,51 @@ function gen_minesweeper() {
                 
                 if (bomb_count > 0) {
                     number_spots[$ current_key] = bomb_count;
+                    
                     tilemap_set(numbers_map_id, bomb_count, _x, _y);
                 }
             }
         }
     }
+    
+    // Set stones
+    for (var _x = 0; _x < tiles_width; _x++) {
+        for (var _y = 0; _y < tiles_height; _y++) {
+            tilemap_set(walls_map_id, 1, _x, _y);
+        }
+    }
+}
+
+function unreveal(_x, _y) {
+    var current_tile = tilemap_get(walls_map_id, _x, _y);
+    if (current_tile != 1) {
+        return;
+    }
+    
+    tilemap_set(walls_map_id, 0, _x, _y);
+    var current_key = string(_x) + "_" + string(_y);
+    
+    if (variable_struct_exists(bomb_spots, current_key)) {
+        bomb_hit()
+        return; 
+    }
+    
+    // Stop at a number
+    if (variable_struct_exists(number_spots, current_key)) {
+        return; 
+    }
+    
+    for (var dx = -1; dx <= 1; dx++) {
+        for (var dy = -1; dy <= 1; dy++) {
+            if (dx == 0 && dy == 0) {
+                continue;
+            }
+            
+            unreveal(_x + dx, _y + dy);
+        }
+    }
+}
+
+function bomb_hit() {
+    
 }
