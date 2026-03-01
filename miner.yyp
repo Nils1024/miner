@@ -48,6 +48,7 @@
     {"id":{"name":"PlaySpriteHover","path":"sprites/PlaySpriteHover/PlaySpriteHover.yy",},},
     {"id":{"name":"QuitSprite","path":"sprites/QuitSprite/QuitSprite.yy",},},
     {"id":{"name":"QuitSpriteHover","path":"sprites/QuitSpriteHover/QuitSpriteHover.yy",},},
+    {"id":{"name":"Settings_bg","path":"sprites/Settings_bg/Settings_bg.yy",},},
     {"id":{"name":"SettingsSprite","path":"sprites/SettingsSprite/SettingsSprite.yy",},},
     {"id":{"name":"SettingsSpriteHover","path":"sprites/SettingsSpriteHover/SettingsSpriteHover.yy",},},
     {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},

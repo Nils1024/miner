@@ -19,6 +19,7 @@
     {"name":"PlaySpriteHover","order":2,"path":"sprites/PlaySpriteHover/PlaySpriteHover.yy",},
     {"name":"QuitSprite","order":7,"path":"sprites/QuitSprite/QuitSprite.yy",},
     {"name":"QuitSpriteHover","order":5,"path":"sprites/QuitSpriteHover/QuitSpriteHover.yy",},
+    {"name":"Settings_bg","order":14,"path":"sprites/Settings_bg/Settings_bg.yy",},
     {"name":"SettingsSprite","order":6,"path":"sprites/SettingsSprite/SettingsSprite.yy",},
     {"name":"Sprite17","order":15,"path":"sprites/Sprite17/Sprite17.yy",},
     {"name":"TrapsTileSetSprite","order":12,"path":"sprites/TrapsTileSetSprite/TrapsTileSetSprite.yy",},
