@@ -30,12 +30,18 @@ var move_y = move_arrow_y + move_wasd_y;
 
 
 if (is_moving) {
+    var next_tile = tilemap_get(walls_map_id, target_x / 16, target_y / 16)
+    if(next_tile == 1) {
+        is_moving = false;
+        return
+    }
+    
     x += sign(target_x - x) * move_speed;
     y += sign(target_y - y) * move_speed;
 
 
     if (x == target_x && y == target_y) {
         is_moving = false;
-        move_timer = move_delay; 
+        move_timer = move_delay;
     }
 }

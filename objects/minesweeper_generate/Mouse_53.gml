@@ -23,7 +23,7 @@ function gen_minesweeper() {
     var player_grid_x = floor(oplayer.x / 16);
     var player_grid_y = floor(oplayer.y / 16);
 
-    while (placed < 1000) {
+    while (placed < global.bomb_amount) {
         var x_bomb = irandom_range(0, tiles_width - 1);
         var y_bomb = irandom_range(0, tiles_height - 1);
         

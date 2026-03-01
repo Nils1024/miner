@@ -6,3 +6,6 @@ target_y = y;
 
 move_delay = 10;     
 move_timer = 0;
+
+walls_layer_id = layer_get_id("Walls")
+walls_map_id = layer_tilemap_get_id(walls_layer_id)

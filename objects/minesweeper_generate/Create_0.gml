@@ -16,6 +16,9 @@ tiles_width = room_width / 16;
 tiles_height = room_height / 16;
 
 global.is_generated = false
+global.bomb_amount = 1000
+global.field_size_x = 10
+global.field_size_y = 10
 bomb_spots = {}
 number_spots = {}
 debug_show_bombs_and_numbers = false
